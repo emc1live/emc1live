@@ -1,0 +1,318 @@
+/* 
+small |  0px - 700px
+medium | 700px - 820px
+high  || 820px - +++
+
+*/
+
+
+
+@media only screen and (max-width: 699px) {
+  .foot-foot-txt {
+      font-size: 7.2px;
+  }
+
+  .top-nav {
+      display: unset !important;
+  }
+
+  .sc_top_mob {
+      display: unset;
+  }
+
+  #sc_info {
+      height: 490%;
+  }
+
+  .des_map_bg {
+      display: none;
+  }
+
+  .mics-item {
+      width: 310px;
+      height: 320px;
+      flex: 0 0 80%;
+  }
+
+  #nes_item {
+      display: none;
+  }
+
+  .sc_title h3 {
+      font-size: 38px !important;
+ 
+  }
+
+ 
+
+  .share-box {
+      width: 340px;
+  }
+
+  .foot-item button {
+      font-size: 9px;
+      left: 4vw;
+      margin-top: 100px; 
+  }
+.foot-header{
+    left: 4vw;
+
+}
+  .hide_mob {
+
+      font-size: 15px !important;
+      font-family: bp !important;
+      top: 20% !important;
+      font-weight:bolder!important;
+      
+  }
+  #sc_roadmap{
+    height: 140vh;
+    margin-bottom: 20vh !important;
+}
+#sc_tools{
+    height: 220vh !important;
+}
+.tool-box{
+    height: 20px !important;
+}
+#sc_footer .sc_title  > h3 {
+    color: #838383 !important;
+    font-family: pc;
+    font-weight: 100;
+  }
+}
+
+@media only screen and (max-width: 699px) and (min-width: 600px) {
+    #sc_tool{
+        display: none;
+        height: 1700vh !important;
+        margin-bottom: 20vh !important;
+    }
+  .mics-item {
+      width: 350px;
+      height: 315px;
+      flex: 0 0 60%;
+  }
+
+  #nes_item {
+      display: none;
+  }
+
+  #sc_top {
+      height: 110vh;
+  }
+
+  #sc_info {
+      height: 490%;
+  }
+
+  .land-bg {
+      width: 95vw;
+  }
+
+
+
+  #sc_tools{
+    height: 220vh !important;
+}
+.tool-box{
+    height: 20px !important;
+}
+  .hide_mob {
+     
+    font-size: 20px !important;
+    font-family: 'Poppins' !important;
+    top: 20% !important;
+    font-weight:bolder!important;
+}
+#sc_roadmap{
+    height: 169vh;
+    margin-bottom: 20vh !important;
+}
+#sc_footer .sc_title  > h3 {
+    color: #838383 !important;
+    font-family: pc;
+    font-weight: 100;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 820px) {
+  .des_nav {
+      display: unset !important;
+  }
+
+  .des_menu {
+      width: 65%;
+      left: 25%;
+  }
+
+  .sc_top_des {
+      display: unset;
+  }
+
+  .des_land-des {
+      top: 39%;
+  }
+  #sc_tools{
+    height: 220vh !important;
+}
+.tool-box{
+    height: 20px !important;
+}
+
+
+  #sc_info {
+      height: 260%;
+  }
+
+  .mics-item {
+      width: 260px;
+      height: 335px;
+      flex: 0 0 40%;
+  }
+
+
+  .road-cir {
+      width: 60px;
+      height: 60px;
+  }
+
+  .road-i {
+      width: 40px;
+      height: 40px;
+  }
+  #sc_roadmap{
+    height: 187vh;
+    margin-bottom: 20vh !important;
+}
+}
+
+@media only screen and (min-width: 820px) and (max-width: 980px) {
+  .des_nav {
+      display: unset;
+  }
+
+  .des_menu {
+      width: 65%;
+      left: 25%;
+  }
+
+  .sc_top_des {
+      display: unset;
+  }
+
+  .des_land-des {
+      top: 40%;
+  }
+
+  
+
+  #sc_info {
+      height: 150vh;
+  }
+  #sc_roadmap{
+    height: 182vh;
+    margin-bottom: 20vh !important;
+}
+  .road-cir {
+      width: 60px;
+      height: 60px;
+  }
+
+  .road-i {
+      width: 40px;
+      height: 40px;
+  }
+
+  .road_txt {
+      left: 5%;
+  }
+
+  .road-text {
+      font-size: 9.5px;
+  }
+  .road-item{
+    width: 50%;
+    height:42% ;
+}
+.road_txt{
+
+    top: 20%;
+    height: 65%;
+
+    }
+ 
+}
+
+@media only screen and (min-width: 980px) {
+  .des_nav {
+      display: unset;
+  }
+
+  .sc_top_des {
+      display: unset;
+  }
+
+  #sc_info {
+      margin-top: 25vh;
+  }
+
+  .mics-item {
+      width: 350px;
+      height: 335px;
+      flex: 0 0 30%;
+  }
+
+  #sc_info {
+      max-height: 212%;
+      margin-bottom: 10vh !important;
+  
+  }
+#sc_roadmap{
+    height: 180vh;
+    margin-bottom: 20vh !important;
+}
+  .road-cir {
+      width: 60px;
+      height: 60px;
+  }
+
+  .road-i {
+      width: 40px;
+      height: 40px;
+  }
+
+  .road_txt {
+      left: 5%;
+  }
+
+  .road-text {
+      font-size: 12px;
+  }
+  .road-item{
+    width: 50%;
+    height:42% ;
+}
+.road_txt{
+
+    top: 20%;
+    height: 65%;
+
+    }
+    .head_desk{
+        left: 2cm !important;
+    }
+
+}
+@media only screen and (min-width:820px)and (max-width:1100px) {
+  .mics-item {
+      width: 280px;
+      height: 335px;
+      flex: 0 0 30%;
+  }
+
+  #sc_info {
+      height: 240%;
+  }
+}

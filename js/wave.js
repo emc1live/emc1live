@@ -1,0 +1,1 @@
+function waves(){Waves.attach(".btn",["waves-light"]),Waves.attach(".btn-darkr",["waves"]),Waves.init()}

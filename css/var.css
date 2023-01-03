@@ -1,0 +1,29 @@
+:root {
+  --light: #fcfcf6;
+  --dark: #1c1d22;
+  --greyW: #dfdfdd;
+  --greyB: #666768;
+  --theme: linear-gradient(
+    325deg,
+    rgb(182, 53, 156) 0%,
+    #ef0a6a 100%
+  );
+  --color: rgb(239, 10, 106);
+  --themeX: linear-gradient(
+    325deg,
+    rgb(182, 53, 156) 0%,
+    rgb(239, 10, 106) 100%
+  );
+  --shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  --small: 14px;
+  --mid: 24px;
+  --big: 38px;
+}
+
+.op:active {
+  filter: alpha(opacity=60);
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  opacity: 0.6;
+}
