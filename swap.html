@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="name" content="EMCSALE">
+  <meta name="keywords" content="EMC,Crypto,Homeless,Buy,Defi,net,Community,Earn,Airdrop,Coin,BSC,Binance,token,live">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.00, maximum-scale=1.00,minimum-scale=1.00, user-scalable=no">
+  <meta name="language" content="English">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="EMC">
+
+
+  <title>EMCSALE</title>
+  <link rel="stylesheet" href="Style/a.css">
+  <link rel="stylesheet" href="Style/font.css">
+  <link rel="stylesheet" href="Style/web.css">
+  <link rel="stylesheet" href="Style/use.css">
+  <link rel="stylesheet" href="Icon/Awsome/in.css">
+  <link rel="stylesheet" href="Style/main.css">
+  <link rel="stylesheet" href="Style/responsive.css">
+
+</head>
+
+<body>
+
+
+
+  <div class="loader-x dn">
+    <div class="loading"></div>
+  </div>
+    <div class="bg-black-inner " id="buy-page" style="animation: fadeIn 1s;">
+      <div class="address-box" onclick="connect()">Connect</div>
+
+
+      <div class="claim-box mid" style="animation : bounceInDown 1s;top:2cm;">
+        <div class="claim-box-top">
+          <b class="claim-text">E1</b>
+        </div>
+        <div class="claim-box-mid">
+          <b class="claim-disclaimer">Click below button to complete the transaction |  Click swap icon to change between from and to currency</b>
+          <div class="claim-recept mid-x">
+            <div class="text" id="text1">From | BUSD</div>
+            <input class="address" placeholder="0" type="number" id="input" oninput="first(this)">
+            <button class="fad fa-exchange exc"></button>
+            <div class="text" id="text2">To | EMC1</div>
+            <input class="address" placeholder="0" type="text" id="output" readonly>
+          </div>
+
+        </div>
+        <button class="claim-btn-box mid-x" id="swap">Swap</button>
+
+        <!-- <span class="fa-spin fad fa-circle-notch"></span> -->
+
+      </div>
+
+    </div>
+
+
+
+    <div class="claimed dn" style="animation: fadeIn 1s;">
+      <button class="fad fa-chevron-left back" onclick="backTransfer()"></button>
+      <div class="middle mid-x">
+        <img src="Asset/win.png" data-aos="fade-down" style="animation: bounceIn 1s;">
+        <div class="text" style="font-family: wik;">Awsome</div>
+        <div class="hash-box">
+          <div class="text">Hash</div>
+          <div class="btn" id="check-btn">Check</div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+  <div class="loader-x dn">
+    <div class="loading"></div>
+  </div>
+  </div>
+</body>
+<script src="JS/start.js"></script>
+<script src="JS/web3.js"></script>
+<script src="JS/handle.js"></script>
+<script src="JS/airdrop.js"></script>
+
+</html>
